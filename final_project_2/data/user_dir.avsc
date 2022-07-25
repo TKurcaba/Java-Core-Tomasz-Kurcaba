@@ -1,0 +1,17 @@
+{
+  "type" : "record",
+  "name" : "user_dir_schema",
+  "namespace" : "com.miguno.avro",
+  "fields" : [ {
+    "name" : "USER_ID",
+    "type" : "int",
+    "doc" : "User id"
+  }, {
+    "name" : "FIRST_NAME",
+    "type" : "string"
+  }, {
+    "name" : "LAST_NAME",
+    "type" : "string"
+  } ],
+  "doc:" : "Table contains first and last names."
+}

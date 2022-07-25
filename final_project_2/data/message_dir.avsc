@@ -1,0 +1,13 @@
+{
+  "type" : "record",
+  "name" : "message_dir_schema",
+  "namespace" : "com.miguno.avro",
+  "fields" : [ {
+    "name" : "MESSAGE_ID",
+    "type" : "int"
+  }, {
+    "name" : "TEXT",
+    "type" : "string"
+  } ],
+  "doc:" : "Table contains text message."
+}

@@ -1,0 +1,13 @@
+{
+  "type" : "record",
+  "name" : "message_schema",
+  "namespace" : "com.miguno.avro",
+  "fields" : [ {
+    "name" : "USER_ID",
+    "type" : "int"
+  }, {
+    "name" : "MESSAGE_ID",
+    "type" : "int"
+  } ],
+  "doc:" : "Table contains information about posted messages."
+}
