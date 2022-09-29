@@ -1,0 +1,22 @@
+package tictactoe.mode;
+
+public enum Mode {
+    USERUSER,
+    USEREASY,
+    EASYUSER,
+    EASYEASY,
+    MEDIUMEASY,
+    EASYMEDIUM,
+    MEDIUMMEDIUM,
+    USERMEDIUM,
+    MEDIUMUSER,
+    USERHARD,
+    HARDUSER,
+    EASYHARD,
+    HARDEASY,
+    MEDIUMHARD,
+    HARDMEDIUM,
+    HARDHARD,
+    EXIT
+
+}
